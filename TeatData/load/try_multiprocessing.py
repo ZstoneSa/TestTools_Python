@@ -10,7 +10,7 @@ import multiprocessing
 import os
 
 '''
-尝试多线程同时运行不同脚本，若要尝试自动化运行不同操作系统下的不同脚本 该方法大致是可以实现的
+尝试多线程同时运行不同脚本，若要尝试自动化运行Android和iOS操作系统下的不同测试机脚本 该方法大致是可以实现的
 '''
 
 def worker(file):

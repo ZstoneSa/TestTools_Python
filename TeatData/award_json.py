@@ -6,7 +6,10 @@
 
 import requests
 import json
+
 '''从文件中读取headers，并转为json格式将之返回 '''
+
+
 def write_header():
     try:
         with open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/load/Request') as fin:
@@ -18,7 +21,10 @@ def write_header():
     except:
         print('Data Error')
 
+
 '''通过request方法，请求接口，并将之写入Response文件中'''
+
+
 def stag_request():
     try:
         stag_URL = 'http://h5.quickcan.cn/v1/payactivity/lottery/start'
@@ -34,7 +40,10 @@ def stag_request():
     except:
         print("Fail, your headers maybe has something wrong")
 
+
 '''请求次数'''
+
+
 def circle_times():
     note = input("Please input the lottery_times :")
     try:
