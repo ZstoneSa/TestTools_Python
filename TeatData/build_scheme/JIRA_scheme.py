@@ -80,8 +80,9 @@ def allofbug():
 
     workbook.close()
 
-def issueanalysis():
-    '''登录jira'''
+
+def issueanlysis():
+    '''  登录jira  '''
     jira = JIRA(server='http://jira.quickcan.com', basic_auth=('zhengshi', 'Zs15825413766'))
 
     '''获取项目中面板，存入数组'''

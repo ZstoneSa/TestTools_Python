@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="decode_json神策事件校验读取事件名文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeatData/build_scheme/Sensor_Event" beforeDir="false" />
+    <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="爬虫学习">
+      <change beforePath="$PROJECT_DIR$/TeatData/build_scheme/JIRA_scheme.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/build_scheme/JIRA_scheme.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606806267988</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1606806461531</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606806461531</updated>
+    </task>
+    <task id="LOCAL-00012" summary="爬虫学习">
+      <created>1606806533590</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606806533590</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -312,7 +325,9 @@
     <MESSAGE value="encode-base64+gzip解码" />
     <MESSAGE value="venv" />
     <MESSAGE value="decode_json神策事件校验读取事件名文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="decode_json神策事件校验读取事件名文件" />
+    <MESSAGE value="update" />
+    <MESSAGE value="爬虫学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="7" key="CommitChangelistDialog2" timestamp="1606805527753">
