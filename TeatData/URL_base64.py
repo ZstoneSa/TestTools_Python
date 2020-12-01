@@ -27,15 +27,17 @@ def translation():
 def judge_event_name():
     data_json = open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json', 'r')
     data_dict = json.loads(data_json.read())
-    '''——————此处更改事件名称校验👇——————'''
-    if data_dict['event'] in read_event():
-        print("------ ✅ 事件名：'" + data_dict['event'] + "'，校验成功")
 
-    elif data_dict['event'] in read_event() is False:
-        print("该数据不包含事件名，请检查数据")
+    try:
+        '''——————此处更改事件名称校验👇——————'''
+        if data_dict['event'] in read_event():
+            print("------ ✅ 事件名：'" + data_dict['event'] + "'，校验成功")
 
-    else:
-        print("------ ❌ 事件名不符合上报需求！")
+        else:
+            print("------ ❌ 事件名：" + data_dict['event'] + " 该「事件」不符合需求！")
+
+    except:
+        print("------ ❌ 数据异常，并非事件上报")
 
 
 def read_event():
@@ -47,7 +49,6 @@ def read_event():
                 event_list.append(data.rstrip('\n'))
             # print(event_list)
         return event_list
-
     except:
         print('打开文件失败，该文件不存在或文件名错误')
 

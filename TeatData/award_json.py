@@ -27,8 +27,8 @@ def write_header():
 
 def stag_request():
     try:
-        stag_URL = 'http://h5.quickcan.cn/v1/payactivity/lottery/start'
-        data = {'activity_name': 'vip_days_201908'}
+        stag_URL = 'http://h5.quickcan.cn/v1/payactivity/lottery/start?topic_id=4'
+        data = {'activity_name': 'topic_lottery_202004'}
         stag_r = requests.post(stag_URL, headers=write_header(), data=data)
         # print(write_header())
         stag_header = open("/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/load/Response", 'a')
@@ -53,7 +53,7 @@ def circle_times():
             c_times = c_times + 1
 
         else:
-            print('-----------------已请求: ' + str(c_times))
+            print('-----------------✅已请求: ' + str(c_times) + '次')
     except:
         print('Something wrong')
 
@@ -62,3 +62,4 @@ if __name__ == '__main__':
     # write_header()
     # stag_request()
     circle_times()
+

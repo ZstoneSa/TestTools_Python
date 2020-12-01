@@ -29,7 +29,7 @@ time.sleep(5)#等待五秒
 self.driver.find_element_by_id("com.smartisanos.notes:id/new_note_button").click()
 
 #根据id定位输入字
-self.driver.find_element_by_id(“com.smartisanos.notes:id/list_rtf_view”).send_keys(“你好”)
+self.driver.find_element_by_id("com.smartisanos.notes:id/list_rtf_view").send_keys("你好")
 
 #根据坐标定位点击
 self.driver.tap([(983, 1820)])

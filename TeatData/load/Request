@@ -1,12 +1,7 @@
 Host: h5.quickcan.cn
 Origin: https://h5.quickcan.cn
-kkFlowType: NotFree
-Cookie: kk_s_t=1566810312361; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2216cccbe36a16aa-0c95fed3c16faf8-124d7850-370944-16cccbe36a2da2%22%2C%22props%22%3A%7B%22%24latest_referrer%22%3A%22%22%2C%22%24latest_referrer_host%22%3A%22%22%7D%7D; session=v1-GAgAAAAAAAAEYhgg0JNoy6jk4Ls3ffVte-xJ_kV4xM_Fa8zti5PmyumgClkA; uid=1100001166; sensorsdata_is_new_user=true; uid=1100001166
+Cookie: kk_s_t=1587447148432; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221719a898f75a2-0004fc1c0a687a8-711055-304500-1719a898f769b5%22%2C%22props%22%3A%7B%22%24latest_referrer%22%3A%22%22%2C%22%24latest_referrer_host%22%3A%22%22%7D%7D; session=v1-GAgAAAAAAAAFShggGKVaJgAYrBxI35PgWhxtRnKJViEDjzauiGvLamslj4sA; uid=94391239; sensorsdata_is_new_user=true
 Content-Length: 0
 Connection: keep-alive
-Accept: application/json, text/plain, */*
-User-Agent: Kuaikan/5.51.0/551000(iPhone;iOS 12.3.1;Scale/3.00;WiFi;2688*1242) Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148  kdtUnion_8a6399314b6c8fd133
-Referer: https://h5.quickcan.cn/act/memberday_eight?conf2fullscreen=1&conf2scrollwhitearea=1&eruda=true&debug=true&origin=NiceBoy&non_iap_supported=0
-Accept-Language: zh-cn
-Accept-Encoding: br, gzip, deflate
-X-Device: I:A1C64C4A-0CA4-486B-9E36-3F6E977AD740
+X-Device: I:A628B2D8-798A-4874-B263-68998E3CB21D
+

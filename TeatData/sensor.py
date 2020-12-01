@@ -5,3 +5,4 @@
 # @Software: PyCharm
 
 def sensor_request():
+    print("11")
