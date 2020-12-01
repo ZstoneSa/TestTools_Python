@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="爬虫学习">
-      <change beforePath="$PROJECT_DIR$/TeatData/build_scheme/JIRA_scheme.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/build_scheme/JIRA_scheme.py" afterDir="false" />
+    <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/TeatData/load/Sensor_Event" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/load/Sensor_Event" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606806533590</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1606806777218</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606806777218</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1606806800548</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606806800548</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -325,9 +339,9 @@
     <MESSAGE value="encode-base64+gzip解码" />
     <MESSAGE value="venv" />
     <MESSAGE value="decode_json神策事件校验读取事件名文件" />
-    <MESSAGE value="update" />
     <MESSAGE value="爬虫学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬虫学习" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="7" key="CommitChangelistDialog2" timestamp="1606805527753">
