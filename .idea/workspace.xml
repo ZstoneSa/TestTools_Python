@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="">
+    <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="decode_json神策事件校验读取事件名文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeatData/URL_base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/URL_base64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatData/build_scheme/Sensor_Event" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +230,56 @@
       <option name="project" value="LOCAL" />
       <updated>1606805051652</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新提交">
+      <created>1606805488680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606805488680</updated>
+    </task>
+    <task id="LOCAL-00005" summary="钉钉机器人提醒">
+      <created>1606805641489</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606805641489</updated>
+    </task>
+    <task id="LOCAL-00006" summary="神策事件校验">
+      <created>1606805754202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606805754202</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JIRA过滤器生成xlsx表">
+      <created>1606805841807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606805841807</updated>
+    </task>
+    <task id="LOCAL-00008" summary="encode-base64+gzip解码">
+      <created>1606805906509</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606805906509</updated>
+    </task>
+    <task id="LOCAL-00009" summary="venv">
+      <created>1606805992237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606805992237</updated>
+    </task>
+    <task id="LOCAL-00010" summary="decode_json神策事件校验读取事件名文件">
+      <created>1606806267988</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606806267988</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -224,16 +291,34 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了Sensoe_Event事件集合文件&#10;增加了转码中事件名的判断" />
     <MESSAGE value="全部提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="全部提交" />
+    <MESSAGE value="更新提交" />
+    <MESSAGE value="钉钉机器人提醒" />
+    <MESSAGE value="神策事件校验" />
+    <MESSAGE value="JIRA过滤器生成xlsx表" />
+    <MESSAGE value="encode-base64+gzip解码" />
+    <MESSAGE value="venv" />
+    <MESSAGE value="decode_json神策事件校验读取事件名文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="decode_json神策事件校验读取事件名文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="7" key="CommitChangelistDialog2" timestamp="1606805406488">
+    <state x="304" y="7" key="CommitChangelistDialog2" timestamp="1606805527753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="304" y="7" key="CommitChangelistDialog2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805406488" />
+    <state x="304" y="7" key="CommitChangelistDialog2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805527753" />
     <state x="144" y="61" key="DiffContextDialog" timestamp="1606805400328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -262,10 +347,14 @@
       <screen x="0" y="25" width="1440" height="806" />
     </state>
     <state x="229" y="64" key="SettingsEditor/0.25.1440.806/1440.-116.2048.1055@0.25.1440.806" timestamp="1606795417963" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606805211097">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606805504084">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805211097" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805504084" />
+    <state x="487" y="188" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606806004650">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="487" y="188" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606806004650" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
