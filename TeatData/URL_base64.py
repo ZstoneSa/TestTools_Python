@@ -15,9 +15,11 @@ def translation():
         data_json = open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json', 'w')
         data_change = note.replace("_", "/").replace("-", "+")
         data_base64_decode = base64.standard_b64decode(data_change).decode()
-        data_loads = json.loads(data_base64_decode) #To python dic
+        #  To python dic
+        data_loads = json.loads(data_base64_decode)
         print("\n------ ✅ 格式化：Base64 & JSON")
-        return json.dump(data_loads, data_json, indent=4, ensure_ascii=False)# dump for indent?
+        # dump for indent?
+        return json.dump(data_loads, data_json, indent=4, ensure_ascii=False)
 
 
     except:
