@@ -1,0 +1,30 @@
+{
+    "distinct_id": "1077850446",
+    "lib": {
+        "$lib": "js",
+        "$lib_method": "code",
+        "$lib_version": "1.6.51"
+    },
+    "properties": {
+        "$os": "iOS",
+        "$model": "iphone",
+        "$os_version": "12.3",
+        "$screen_height": 896,
+        "$screen_width": 414,
+        "$lib": "js",
+        "$lib_version": "1.6.51",
+        "$browser": "webview",
+        "$browser_version": "-1",
+        "$latest_referrer": "",
+        "$latest_referrer_host": "",
+        "H5Page": "https://h5.kuaikanmanhua.com/act/overlord_meal3?conf2fullscreen=1&conf2scrollwhitearea=1&backgroundColor=ff9AD0FF&activity_name=overlord_meals_3&pool_name=oct_new&origin=vipactivity&third_activity=overlord_meals_3&t=1&non_iap_supported=0&topic_id=0#/",
+        "PayActivityName": "霸王餐3期",
+        "TriggerPage": "vipactivity",
+        "PayActivitySubName": "活动参与页",
+        "$is_first_day": true,
+        "$is_first_time": true
+    },
+    "type": "track",
+    "event": "PayActivityPV",
+    "_nocache": "7002632580616"
+}
