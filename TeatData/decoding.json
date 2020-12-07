@@ -1,30 +1,37 @@
 {
-    "distinct_id": "1077850446",
+    "distinct_id": "1107071868",
     "lib": {
-        "$lib": "js",
+        "$lib": "MiniProgram",
         "$lib_method": "code",
-        "$lib_version": "1.6.51"
+        "$lib_version": "1.13.20"
     },
     "properties": {
-        "$os": "iOS",
-        "$model": "iphone",
-        "$os_version": "12.3",
-        "$screen_height": 896,
+        "$lib": "MiniProgram",
+        "$lib_version": "1.13.20",
+        "$network_type": "wifi",
+        "$manufacturer": "iPhone",
+        "$model": "iPhone XS Max China-exclusive<iPhone11,6>",
         "$screen_width": 414,
-        "$lib": "js",
-        "$lib_version": "1.6.51",
-        "$browser": "webview",
-        "$browser_version": "-1",
-        "$latest_referrer": "",
-        "$latest_referrer_host": "",
-        "H5Page": "https://h5.kuaikanmanhua.com/act/overlord_meal3?conf2fullscreen=1&conf2scrollwhitearea=1&backgroundColor=ff9AD0FF&activity_name=overlord_meals_3&pool_name=oct_new&origin=vipactivity&third_activity=overlord_meals_3&t=1&non_iap_supported=0&topic_id=0#/",
-        "PayActivityName": "霸王餐3期",
-        "TriggerPage": "vipactivity",
-        "PayActivitySubName": "活动参与页",
-        "$is_first_day": true,
-        "$is_first_time": true
+        "$screen_height": 896,
+        "$os": "iOS",
+        "$os_version": "12.3.1",
+        "SourcePlatform": "wechat",
+        "mini_program_version": "3.4.1",
+        "abtestSign": [
+            "s_Weifree_a"
+        ],
+        "ModuleID": 0,
+        "ModuleType": "六图类型",
+        "ModuleName": "为你推荐",
+        "ObjectType": "",
+        "ObjectId": "",
+        "ButtonName": "查看更多",
+        "IsManualRecTopic": false,
+        "ManualRecTopicName": "",
+        "$is_first_day": false
     },
+    "login_id": "1107071868",
+    "anonymous_id": "oVaP50PJXWccSj14BS76RUf1-yHk",
     "type": "track",
-    "event": "PayActivityPV",
-    "_nocache": "7002632580616"
+    "event": "UserDefinedTabFindPageClk"
 }

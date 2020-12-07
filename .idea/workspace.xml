@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/TeatData/load/Sensor_Event" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/load/Sensor_Event" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatData/decoding.json" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/decoding.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatData/demo/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/demo/demo5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <recent name="$PROJECT_DIR$/TeatData/build_scheme" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Bot_ding">
+  <component name="RunManager" selected="Python.demo6_def">
     <configuration name="Bot_ding" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestTools_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,27 +139,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestTools_Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TeatData/demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/demo/demo4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="demo5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestTools_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,20 +160,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo6_def" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTools_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TeatData/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/demo/demo6_def.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.URL_base64" />
-      <item itemvalue="Python.demo4" />
       <item itemvalue="Python.demo5" />
       <item itemvalue="Python.Bot_ding" />
       <item itemvalue="Python.award_json" />
+      <item itemvalue="Python.demo6_def" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Bot_ding" />
-        <item itemvalue="Python.URL_base64" />
-        <item itemvalue="Python.award_json" />
-        <item itemvalue="Python.demo4" />
+        <item itemvalue="Python.demo6_def" />
         <item itemvalue="Python.demo5" />
+        <item itemvalue="Python.URL_base64" />
+        <item itemvalue="Python.Bot_ding" />
+        <item itemvalue="Python.award_json" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606806800548</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <created>1606807021810</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606807021810</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -328,6 +337,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了Sensoe_Event事件集合文件&#10;增加了转码中事件名的判断" />
@@ -344,42 +354,52 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="95" key="#Plugins" timestamp="1606977587087">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="95" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1606977587087" />
     <state x="304" y="7" key="CommitChangelistDialog2" timestamp="1606805527753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="304" y="7" key="CommitChangelistDialog2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805527753" />
-    <state x="144" y="61" key="DiffContextDialog" timestamp="1606805400328">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="144" y="61" width="1152" height="720" key="DiffContextDialog" timestamp="1606811909972">
+      <screen x="0" y="25" width="1440" height="806" />
     </state>
     <state x="144" y="61" key="DiffContextDialog/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805400328" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1606803329788">
+    <state x="144" y="61" width="1152" height="720" key="DiffContextDialog/0.25.1440.806/1440.-116.2048.1055@0.25.1440.806" timestamp="1606811909972" />
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1606983349589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606803329788" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1606803329786">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606983349589" />
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606977529916" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1606983349587">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606803329786" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1606803329785">
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606983349587" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606977529915" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1606983349587">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606803329785" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1606803329787">
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606983349587" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606977529915" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1606983349588">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606803329787" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606983349588" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606977529916" />
     <state x="461" y="141" key="RollbackChangesDialog" timestamp="1606805404506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="461" y="141" key="RollbackChangesDialog/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805404506" />
-    <state x="229" y="64" key="SettingsEditor" timestamp="1606795417963">
-      <screen x="0" y="25" width="1440" height="806" />
-    </state>
-    <state x="229" y="64" key="SettingsEditor/0.25.1440.806/1440.-116.2048.1055@0.25.1440.806" timestamp="1606795417963" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606805504084">
+    <state x="229" y="44" key="SettingsEditor" timestamp="1606819343230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805504084" />
+    <state x="229" y="44" key="SettingsEditor/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606819343230" />
+    <state x="229" y="64" key="SettingsEditor/0.25.1440.806/1440.-116.2048.1055@0.25.1440.806" timestamp="1606795417963" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606807005513">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606807005513" />
     <state x="487" y="188" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606806004650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
