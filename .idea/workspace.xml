@@ -21,8 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatData/Android/Android_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/Android/Android_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatData/URL_base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/URL_base64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatData/build_scheme/JIRA_scheme.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/build_scheme/JIRA_scheme.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeatData/decoding.json" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/decoding.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeatData/demo/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/demo/demo5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatData/demo/demo6_def.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/demo/demo6_def.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeatData/load/Sensor_Event" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/load/Sensor_Event" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +39,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>note</find>
-      <find>DATA_JSON</find>
-      <find>add_series</find>
-      <find>search_issues</find>
-      <find>代金券</find>
-      <find>data_json</find>
-      <find>random</find>
-      <find>sign</find>
-      <find>test_report</find>
-      <find>headers</find>
-      <find>write_header</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,28 +64,7 @@
       <recent name="$PROJECT_DIR$/TeatData/build_scheme" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo6_def">
-    <configuration name="Bot_ding" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestTools_Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TeatData" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/Bot_ding.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.taobao">
     <configuration name="URL_base64" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestTools_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,27 +78,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/URL_base64.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="award_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestTools_Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TeatData" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/award_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,20 +128,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="gzip-decode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTools_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TeatData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/gzip-decode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="taobao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTools_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TeatData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/taobao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.URL_base64" />
       <item itemvalue="Python.demo5" />
-      <item itemvalue="Python.Bot_ding" />
-      <item itemvalue="Python.award_json" />
       <item itemvalue="Python.demo6_def" />
+      <item itemvalue="Python.gzip-decode" />
+      <item itemvalue="Python.taobao" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo6_def" />
-        <item itemvalue="Python.demo5" />
+        <item itemvalue="Python.taobao" />
         <item itemvalue="Python.URL_base64" />
-        <item itemvalue="Python.Bot_ding" />
-        <item itemvalue="Python.award_json" />
+        <item itemvalue="Python.demo6_def" />
+        <item itemvalue="Python.gzip-decode" />
+        <item itemvalue="Python.demo5" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606807021810</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1607309482540</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607309482540</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -352,58 +348,6 @@
     <MESSAGE value="爬虫学习" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="320" y="95" key="#Plugins" timestamp="1606977587087">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="95" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1606977587087" />
-    <state x="304" y="7" key="CommitChangelistDialog2" timestamp="1606805527753">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="304" y="7" key="CommitChangelistDialog2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805527753" />
-    <state x="144" y="61" width="1152" height="720" key="DiffContextDialog" timestamp="1606811909972">
-      <screen x="0" y="25" width="1440" height="806" />
-    </state>
-    <state x="144" y="61" key="DiffContextDialog/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805400328" />
-    <state x="144" y="61" width="1152" height="720" key="DiffContextDialog/0.25.1440.806/1440.-116.2048.1055@0.25.1440.806" timestamp="1606811909972" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1606983349589">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606983349589" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606977529916" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1606983349587">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606983349587" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606977529915" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1606983349587">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606983349587" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606977529915" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1606983349588">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606983349588" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606977529916" />
-    <state x="461" y="141" key="RollbackChangesDialog" timestamp="1606805404506">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="461" y="141" key="RollbackChangesDialog/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606805404506" />
-    <state x="229" y="44" key="SettingsEditor" timestamp="1606819343230">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="44" key="SettingsEditor/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606819343230" />
-    <state x="229" y="64" key="SettingsEditor/0.25.1440.806/1440.-116.2048.1055@0.25.1440.806" timestamp="1606795417963" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606807005513">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606807005513" />
-    <state x="487" y="188" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606806004650">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="487" y="188" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900/1440.-141.2048.1080@0.0.1440.900" timestamp="1606806004650" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">

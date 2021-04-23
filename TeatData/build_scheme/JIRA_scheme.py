@@ -193,7 +193,7 @@ if __name__ == '__main__':
     if isinstance(affectedVersion, list):
         print('生成图表中，请稍候.....')
         allofbug()
-        issueanalysis()
+        issueanlysis()
         print('图表已生成，请检查当前文件夹.xlsx文件两种图表是否正确')
     else:
         print('输入有误')

@@ -4,20 +4,20 @@
 # @FileName: Android_test.py
 # @Software: PyCharm
 
-import os,unittest,time,sys
+import os, unittest, time, sys
 import self as self
 from appium import webdriver
 from time import sleep
 
 desired_caps = {
-      'platformName': 'Android', # 设备系统
-      'deviceName': 'Meizu_M15_CN', # 设备名称
-      'platformVersion': '7.1.2', # 系统版本
+      'platformName': 'Android',  # 设备系统
+      'deviceName': 'Meizu_M15_CN',  # 设备名称
+      'platformVersion': '7.1.2',  # 系统版本
       'noReset': 'true',
       'unicodeKeyboard': 'true',
       'resetKeyboard': 'true',
-      'appPackage': 'com.kuaikan.comic',# 包名
-      'appActivity': 'com.kuaikan.main.LaunchActivity',# app启动活动
+      'appPackage': 'com.kuaikan.comic',  # 包名
+      'appActivity': 'com.kuaikan.main.LaunchActivity',  # app启动活动
       'automationName':'UiAutomator1'#
 }
 

@@ -1,37 +1,26 @@
 {
-    "distinct_id": "1107071868",
+    "distinct_id": "94391250",
     "lib": {
-        "$lib": "MiniProgram",
+        "$lib": "js",
         "$lib_method": "code",
-        "$lib_version": "1.13.20"
+        "$lib_version": "1.15.1"
     },
     "properties": {
-        "$lib": "MiniProgram",
-        "$lib_version": "1.13.20",
-        "$network_type": "wifi",
-        "$manufacturer": "iPhone",
-        "$model": "iPhone XS Max China-exclusive<iPhone11,6>",
-        "$screen_width": 414,
         "$screen_height": 896,
-        "$os": "iOS",
-        "$os_version": "12.3.1",
-        "SourcePlatform": "wechat",
-        "mini_program_version": "3.4.1",
-        "abtestSign": [
-            "s_Weifree_a"
-        ],
-        "ModuleID": 0,
-        "ModuleType": "六图类型",
-        "ModuleName": "为你推荐",
-        "ObjectType": "",
-        "ObjectId": "",
-        "ButtonName": "查看更多",
-        "IsManualRecTopic": false,
-        "ManualRecTopicName": "",
-        "$is_first_day": false
+        "$screen_width": 414,
+        "$lib": "js",
+        "$lib_version": "1.15.1",
+        "$latest_traffic_source_type": "直接流量",
+        "$latest_search_keyword": "未取到值_直接打开",
+        "$latest_referrer": "",
+        "cps_parameter": "",
+        "SourcePlatform": "QQ小程序",
+        "ButtonName": "兑换",
+        "TopicName": "",
+        "IsTakeSuccess": -1,
+        "$is_first_day": true
     },
-    "login_id": "1107071868",
-    "anonymous_id": "oVaP50PJXWccSj14BS76RUf1-yHk",
+    "anonymous_id": "94391250",
     "type": "track",
-    "event": "UserDefinedTabFindPageClk"
+    "event": "ExchangePageClk"
 }

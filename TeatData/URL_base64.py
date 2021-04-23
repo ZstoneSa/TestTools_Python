@@ -21,7 +21,6 @@ def translation():
         # dump for indent?
         return json.dump(data_loads, data_json, indent=4, ensure_ascii=False)
 
-
     except:
         print("Your data maybe not the code of base64")
 
