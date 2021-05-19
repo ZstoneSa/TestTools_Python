@@ -23,8 +23,8 @@ import json
 def dingding():
     # 获取时间
     timestamp = str(round(time.time() * 1000))
-    secret = 'SEC0f54b28f5ea9407eeb97d4df0f0d27b95631d6ee2a7a0c444f62975fc10d0039'
-    secret_enc = secret.encode('utf-8')
+    secret = 'SEC0f54b28f5ea9407eeb97d4df0f0d27b95631d6ee2a7a0c444f62975fc10d0039'  # 秘钥
+    secret_enc = secret.encode('utf-8')  # encode格式
     string_to_sign = '{}\n{}'.format(timestamp, secret)
     string_to_sign_enc = string_to_sign.encode('utf-8')
     hmac_code = hmac.new(secret_enc, string_to_sign_enc, digestmod=hashlib.sha256).digest()

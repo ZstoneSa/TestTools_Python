@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020-11-12 18:38
 # @Author  : Zstone
-# @FileName: demo1.py
+# @FileName: demo1_if.py
 # @Software: PyCharm
 
 '''
@@ -11,7 +11,7 @@ print('output:%d'%a)
 '''
 if True:# >1数字或True ，都判断为真，反之False同理
     print("1")
-else :
+else:
     print("2")
 
 issues = 6
@@ -24,13 +24,13 @@ elif issues > 10 and issues <= 20:
 
 import random
 
-x = random.randint(1, 100)#[1,100]
+x = random.randint(1, 100)  # [1,100]
 print(x)
 
 shouShi = random.randint(0, 2)
 if shouShi == 0:
-    print('剪刀(%d)'%shouShi)
+    print('剪刀(%d)' % shouShi)
 elif shouShi == 1:
-    print('石头(%d)'%shouShi)
+    print('石头(%d)' % shouShi)
 elif shouShi == 2:
-    print('布(%d)'%shouShi)
+    print('布(%d)' % shouShi)

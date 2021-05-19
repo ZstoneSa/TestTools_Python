@@ -79,7 +79,7 @@
 # 循环询问商品，打印购物车，Q中止循环计算总价格
 products = [['apple', 5], ['banana', 10], ['water', 2], ['orange', 7]]  # 一个包含所有商品名称和价格的列表
 i = 0
-print('-'*4,'商品名称', '-'*4)
+print('-'*4, '商品名称', '-'*4)
 for product in products:    # 循环遍历所有商品元素
     print("%d %s %d" % (i, product[0], product[1]))  # 打印元素
     i += 1
@@ -106,8 +106,6 @@ while len(products):
                 n += 1
             print('已购买%d个商品，总价为%d' % (n, price))
             break
-
-
-    except():
-        print('输入有误，不存在该商品编号')
+    except Exception as error:
+        print('输入有误，不存在该商品编号:%s' % error)
 
