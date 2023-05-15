@@ -57,6 +57,6 @@ def read_event():
 if __name__ == '__main__':
 
     translation()
-    judge_event_name()
+    # judge_event_name()
     # os.open("/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json", os.O_RDWR|os.O_CREAT)
 
