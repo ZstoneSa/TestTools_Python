@@ -17,12 +17,18 @@ from airtest.core.api import *
 
 
 def home_page():
+    print("检查主页中...")
     driver.get('https://www.gcores.com/')
     # 断言网址是否正确
-    assert 'https://www.gcores.com/' in driver.current_url
-    err_code = ['500', '502', '402', '403']
-    assert err_code not in driver.page_source
-    print("主站加载正常")
+    try:
+        assert 'https://www.gcores.com/' in driver.current_url
+        err_code = ['400', '401', '402', '403', '404', '500', '501', '502', '503', '504', '505']
+        for code in err_code:
+            assert code not in driver.page_source
+
+        print("√ 机核主页正常加载")
+    except AssertionError:
+        log("× 机核主页状态异常")
 
 
 # 基本操作
@@ -47,8 +53,16 @@ def login():
     keeplogin_btn.click()
     login_btn = driver.find_element(By.XPATH, '/html/body/div[13]/div/div/div[2]/form/div[4]/button')
     login_btn.click()
-    err_code = ['500', '502', '402', '403']
-    assert err_code not in driver.page_source
+    # 断言展示
+    try:
+        # 断言页面状态，页面源码中
+        err_code = ['400', '401', '402', '403', '404', '500', '501', '502', '503', '504', '505']
+        for code in err_code:
+            assert code not in driver.page_source
+
+        print("√ 登录后机核主页正常加载")
+    except AssertionError:
+        log("× 登录后机核主页状态异常")
 
     try:
         # 断言登录成功，在首页展示收藏
@@ -57,6 +71,54 @@ def login():
         print("登录成功后，首页显示：{}".format(collections_btn.text))
     except NoSuchElementException:
         log("未定位到「收藏」btn，请检查登录状态")
+
+
+def article_page():
+    print("检查文章详情页中...")
+    driver.get('https://www.gcores.com/articles/169291')
+    # 断言展示
+    try:
+        # 断言网址是否正确
+        assert 'https://www.gcores.com/articles/169291' in driver.current_url
+        err_code = ['400', '401', '402', '403', '404', '500', '501', '502', '503', '504', '505']
+        for code in err_code:
+            assert code not in driver.page_source
+
+        print("√ 文章详情页正常加载")
+    except AssertionError:
+        log("× 文章详情页状态异常")
+
+
+def talk_page():
+    print("检查话题详情页中...")
+    driver.get('https://www.gcores.com/talks/633413')
+    # 断言展示
+    try:
+        # 断言网址是否正确
+        assert 'https://www.gcores.com/talks/633413' in driver.current_url
+        err_code = ['400', '401', '402', '403', '404', '500', '501', '502', '503', '504', '505']
+        for code in err_code:
+            assert code not in driver.page_source
+
+        print("√ 话题详情页正常加载")
+    except AssertionError:
+        log("× 话题详情页状态异常")
+
+
+def radio_page():
+    print("检查电台详情页中...")
+    driver.get('https://www.gcores.com/radios/169168')
+    # 断言展示
+    try:
+        # 断言网址是否正确
+        assert 'https://www.gcores.com/radios/169168' in driver.current_url
+        err_code = ['400', '401', '402', '403','404', '500', '501', '502', '503', '504', '505']
+        for code in err_code:
+            assert code not in driver.page_source
+
+        print("√ 电台详情页正常加载")
+    except AssertionError:
+        log("× 电台详情页状态异常")
 
 
 '''
@@ -69,7 +131,7 @@ try:
     chrome_options.page_load_strategy = 'normal'
     # 启动chrome
     driver = webdriver.Chrome(options=chrome_options)
-    # 命令超出时长异常抛出
+    # 启动chrome超出20S 抛出异常
     driver.implicitly_wait(20)
     # 计算启动时间
     start_time = datetime.datetime.now()
@@ -84,4 +146,4 @@ try:
     driver.quit()
 
 finally:
-    log("测试结束，请查看打印的运行结果")
+    log("测试结束，请查看控制台结果")
