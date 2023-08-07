@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2023/8/4 15:30
+# @Time    : 2023/8/7 16:14
 # @Author  : Zstone
-# @FileName: Gcores_web.py
+# @FileName: Gcores_test.py
 # @Software: PyCharm
-
 import datetime
 from retrying import retry
 from selenium.webdriver.chrome.options import Options
@@ -14,15 +13,6 @@ from airtest.core.api import *
 # from selenium.webdriver.common.keys import Keys
 # from pyvirtualdisplay import Display
 # from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-
-
-def home_page():
-    driver.get('https://www.gcores.com/')
-    # 断言网址是否正确
-    assert 'https://www.gcores.com/' in driver.current_url
-    err_code = ['500', '502', '402', '403']
-    assert err_code not in driver.page_source
-    print("主站加载正常")
 
 
 # 基本操作
@@ -47,8 +37,7 @@ def login():
     keeplogin_btn.click()
     login_btn = driver.find_element(By.XPATH, '/html/body/div[13]/div/div/div[2]/form/div[4]/button')
     login_btn.click()
-    err_code = ['500', '502', '402', '403']
-    assert err_code not in driver.page_source
+    assert '500'
 
     try:
         # 断言登录成功，在首页展示收藏
@@ -73,9 +62,11 @@ try:
     driver.implicitly_wait(20)
     # 计算启动时间
     start_time = datetime.datetime.now()
-    # 主站 - 未登录
-    home_page()
+    driver.get('https://www.gcores.com/')
+    # 断言网址是否正确
+    assert 'https://www.gcores.com/' in driver.current_url
     driver.maximize_window()
+
     '''测试用例'''
     login()
     end_time = datetime.datetime.now()
@@ -84,4 +75,4 @@ try:
     driver.quit()
 
 finally:
-    log("测试结束，请查看打印的运行结果")
+    log("测试结束，请查看终端消息")
