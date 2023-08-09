@@ -24,7 +24,126 @@
   <component name="ChangeListManager">
     <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="update-demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gcores_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebAutomation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeatData/Gcores_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/Gcores_web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2020.11.8.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2020.11.8.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2020.11.8.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2020.11.8.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2020.11.8.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2020.11.8.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.25.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.25.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.25.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.25.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.25.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.25.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.25.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/_internal_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/_internal_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/adapters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/certs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/certs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/packages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/sessions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/status_codes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/structures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium-3.141.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium-3.141.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium-3.141.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium-3.141.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium-3.141.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium-3.141.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/common/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/common/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/android/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/android/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/blackberry/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/blackberry/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/remote_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/action_chains.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/action_chains.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/action_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/action_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/input_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/input_device.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/interaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/interaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/key_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/key_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/key_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/key_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/mouse_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/mouse_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/pointer_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/pointer_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/pointer_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/pointer_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/by.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/by.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/desired_capabilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/desired_capabilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/html5/application_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/html5/application_cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/touch_actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/common/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/edge/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/edge/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/edge/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/edge/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/edge/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/edge/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/extension_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/extension_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/firefox_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/firefox_binary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/firefox_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/firefox_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/remote_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver.xpi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver_prefs.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver_prefs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webelement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/ie/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/ie/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/ie/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/ie/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/ie/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/ie/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/opera/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/opera/options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/opera/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/phantomjs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/phantomjs/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/phantomjs/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/file_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/file_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/getAttribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/getAttribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/isDisplayed.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/isDisplayed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/mobile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/mobile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/switch_to.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/switch_to.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/safari/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/safari/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/safari/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/safari/remote_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/safari/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/safari/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/safari/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/safari/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/abstract_event_listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/abstract_event_listener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/event_firing_webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/event_firing_webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/select.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/select.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/webkitgtk/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/webkitgtk/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/webkitgtk/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/webkitgtk/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/webkitgtk/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/selenium/webdriver/webkitgtk/webdriver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +184,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "python__reptile",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;python__reptile&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TeatData/demo" />
@@ -78,7 +197,7 @@
       <recent name="$PROJECT_DIR$/TeatData/build_scheme" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Gcores_test">
+  <component name="RunManager" selected="Python.WebAutomation">
     <configuration name="Gcores_award" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTools_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,27 +211,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/Gcores_award.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Gcores_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTools_Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gcores_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,6 +261,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="WebAutomation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTools_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebAutomation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTools_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,15 +304,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Gcores_test" />
       <item itemvalue="Python.Gcores_web" />
       <item itemvalue="Python.Gcores_award" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.URL_base64" />
+      <item itemvalue="Python.WebAutomation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Gcores_test" />
+        <item itemvalue="Python.WebAutomation" />
         <item itemvalue="Python.Gcores_web" />
         <item itemvalue="Python.Gcores_award" />
         <item itemvalue="Python.test" />

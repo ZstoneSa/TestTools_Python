@@ -5,12 +5,19 @@
 # @Software: PyCharm
 
 import datetime
+import time
+import os
+import pytest
+import logging
 from retrying import retry
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from airtest.core.api import *
+
 # from selenium.webdriver.common.keys import Keys
 # from pyvirtualdisplay import Display
 # from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -53,13 +60,12 @@ def login():
     keeplogin_btn.click()
     login_btn = driver.find_element(By.XPATH, '/html/body/div[13]/div/div/div[2]/form/div[4]/button')
     login_btn.click()
-    # 断言展示
+
     try:
-        # 断言页面状态，页面源码中
+        # 页面源码中,断言页面状态
         err_code = ['400', '401', '402', '403', '404', '500', '501', '502', '503', '504', '505']
         for code in err_code:
             assert code not in driver.page_source
-
         print("√ 登录后机核主页正常加载")
     except AssertionError:
         log("× 登录后机核主页状态异常")
@@ -99,6 +105,7 @@ def talk_page():
         err_code = ['400', '401', '402', '403', '404', '500', '501', '502', '503', '504', '505']
         for code in err_code:
             assert code not in driver.page_source
+        driver.find_element()
 
         print("√ 话题详情页正常加载")
     except AssertionError:
@@ -132,7 +139,7 @@ try:
     # 启动chrome
     driver = webdriver.Chrome(options=chrome_options)
     # 启动chrome超出20S 抛出异常
-    driver.implicitly_wait(20)
+    driver.implicitly_wait(25)
     # 计算启动时间
     start_time = datetime.datetime.now()
     # 主站 - 未登录
@@ -146,4 +153,5 @@ try:
     driver.quit()
 
 finally:
+    driver.quit()
     log("测试结束，请查看控制台结果")
