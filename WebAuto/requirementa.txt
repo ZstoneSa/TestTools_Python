@@ -1,0 +1,11 @@
+selenium
+pytest
+pytest-selenium
+pytest-html
+pytest-variables
+pytest-timeout
+pytest-level
+pytest-base-url
+pytest-ordering
+pytest-rerunfailures
+pytest-xdist

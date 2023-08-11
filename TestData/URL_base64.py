@@ -12,7 +12,7 @@ def translation():
 
     try:
         note = input("Please input the data :")
-        data_json = open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json', 'w')
+        data_json = open('/TestData/decoding.json', 'w')
         data_change = note.replace("_", "/").replace("-", "+")
         data_base64_decode = base64.standard_b64decode(data_change).decode()
         #  To python dic
@@ -26,7 +26,7 @@ def translation():
 
 
 def judge_event_name():
-    data_json = open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json', 'r')
+    data_json = open('/TestData/decoding.json', 'r')
     data_dict = json.loads(data_json.read())
 
     try:
@@ -44,7 +44,7 @@ def judge_event_name():
 def read_event():
     try:
 
-        with open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/load/Sensor_Event') as fin:
+        with open('/TestData/load/Sensor_Event') as fin:
             event_list = []
             for data in fin:
                 event_list.append(data.rstrip('\n'))
@@ -58,5 +58,5 @@ if __name__ == '__main__':
 
     translation()
     # judge_event_name()
-    # os.open("/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json", os.O_RDWR|os.O_CREAT)
+    # os.open("/Users/zhengshi/PycharmProjects/TestTools_Python/TestData/decoding.json", os.O_RDWR|os.O_CREAT)
 

@@ -4,6 +4,8 @@
       <w>keeplogin</w>
       <w>loginhome</w>
       <w>passnum</w>
+      <w>rerunfailures</w>
+      <w>signout</w>
     </words>
   </dictionary>
 </component>

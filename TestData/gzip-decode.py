@@ -20,7 +20,7 @@ def translation():
 
 
 def judge_event_name():
-    data_json = open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json', 'r')
+    data_json = open('/TestData/decoding.json', 'r')
     data_dict = json.loads(data_json.read())
 
     try:
@@ -38,7 +38,7 @@ def judge_event_name():
 def read_event():
     try:
 
-        with open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/load/Sensor_Event') as fin:
+        with open('/TestData/load/Sensor_Event') as fin:
             event_list = []
             for data in fin:
                 event_list.append(data.rstrip('\n'))
@@ -49,7 +49,7 @@ def read_event():
 
 
 def gzip_decompress(buf):
-    data = open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json', 'w')
+    data = open('/TestData/decoding.json', 'w')
     obj = BytesIO(buf)
     with gzip.GzipFile(fileobj=obj) as f:
         result = f.read().decode('utf-8')
@@ -62,5 +62,5 @@ if __name__ == '__main__':
     # s = "H4sIAAAAAAAAE4vmUlCoBmIFBaWCovyC1KKSzNRiJQUrqCBQOCS/IDPZ0wUkZqgDE3TOz4UJGsAFVfLBOpUy/YOV4IJuiZk5QamJxfl5YLlnc3qfdi18OnPFs1lNz6Zve7Kj92n/+udTVui8WL/9+YrepxP6Xrb3vlg/VQmsvxZijFJJZUEqWHtJUWJythJMNDMXLGpoZmBqYWJiamRqbmQBlUstS80rAWsJdvEG2p8CdjHI1FquWADuiwNE9QAAAA=="
     # b = bytes(s, encoding="utf-8")
     gzip_decompress(translation())
-    # os.open("/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/decoding.json", os.O_RDWR|os.O_CREAT)
+    # os.open("/Users/zhengshi/PycharmProjects/TestTools_Python/TestData/decoding.json", os.O_RDWR|os.O_CREAT)
 

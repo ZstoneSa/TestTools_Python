@@ -69,7 +69,7 @@ def dingding():
 #         }
 #         stag_r = requests.post(stag_URL, headers=write_header(), data=data)
 #         # print(write_header())
-#         stag_header = open("/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/load/Response", 'a')
+#         stag_header = open("/Users/zhengshi/PycharmProjects/TestTools_Python/TestData/load/Response", 'a')
 #         print(json.loads(stag_r.text))
 #         stag_dict = json.loads(stag_r.text)
 #         print('Response Success, more detail read file named "Response"')

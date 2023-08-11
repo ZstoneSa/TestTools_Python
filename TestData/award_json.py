@@ -12,7 +12,7 @@ import json
 
 def write_header():
     try:
-        with open('/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/load/Request') as fin:
+        with open('/TestData/load/Request') as fin:
             valid = (line.split(': ', 1) for line in fin)
             data = {k: v.rstrip('\n') for k, v in valid}
             # print(data)
@@ -31,7 +31,7 @@ def stag_request():
         data = {'activity_name': 'topic_lottery_202004'}
         stag_r = requests.post(stag_URL, headers=write_header(), data=data)
         # print(write_header())
-        stag_header = open("/Users/zhengshi/PycharmProjects/TestTools_Python/TeatData/load/Response", 'a')
+        stag_header = open("/TestData/load/Response", 'a')
         print(json.loads(stag_r.text))
         stag_dict = json.loads(stag_r.text)
         print('Response Success, more detail read file named "Response"')
