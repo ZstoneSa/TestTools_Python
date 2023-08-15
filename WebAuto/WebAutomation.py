@@ -1,25 +1,432 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2023/8/7 16:14
+# @Time    : 2023/8/4 15:30
 # @Author  : Zstone
-# @FileName: WebAutomation.py
+# @FileName: Gcores_web.py
 # @Software: PyCharm
+
 import datetime
+import json
+import pytest
 from retrying import retry
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
 from airtest.core.api import *
-# from selenium.webdriver.common.keys import Keys
-# from pyvirtualdisplay import Display
-# from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
+global base_url
 
 
-# 基本操作
+def open_home_page():
+    print("检查「主页」中...")
+    driver.get(base_url)
+    driver.maximize_window()
+    # 断言网址是否正确
+    try:
+        assert base_url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "home", "当前页面为：首页")
+        print("√ 机核主页正常加载")
+    except AssertionError:
+        pytest.fail("定位「机核首页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+    sleep(3)
+
+
+def open_topic_home():
+    print("检查「机组首页」中...")
+    url = base_url + 'topics/home'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "topicsHome", "当前页面为：机组首页")
+        print("机组首页正常加载")
+    except AssertionError:
+        pytest.fail("定位「机组首页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_news_page():
+    print("检查「资讯页」中...")
+    url = base_url + 'news'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "newsList", "当前页面为：咨询页")
+        print("咨询页正常加载")
+    except AssertionError:
+        pytest.fail("定位「资讯页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_radios_page():
+    print("检查「播客页」中...")
+    url = base_url + 'radios'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "radios", "当前页面为：播客页")
+        print("播客页正常加载")
+    except AssertionError:
+        pytest.fail("定位「播客页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_articles_page():
+    print("检查「文章页」中...")
+    url = base_url + 'articles'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "articles", "当前页面属于：文章页")
+        article_home_icon = driver.find_element(By.XPATH, '//*[@id="app_inner"]/div[3]/div/div[3]/div/div/h2/span')
+        assert_equal(article_home_icon.text, "文章", "当前页面为：文章页 - 首页")
+        print("播客页正常加载")
+    except AssertionError:
+        pytest.fail("定位「播客页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_videos_page():
+    print("检查「视频页」中...")
+    url = base_url + 'videos'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "videos", "当前页面为：文章页")
+        article_home_icon = driver.find_element(By.XPATH, '//*[@id="app_inner"]/div[3]/div/div[3]/div/div/h2/span')
+        assert_equal(article_home_icon.text, "文章")
+        print("播客页正常加载")
+    except AssertionError:
+        pytest.fail("定位「播客页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_audiobooks_page():
+    print("检查「有声书页」中...")
+    url = base_url + 'audio_books'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "audioBooks", "当前页面为：有声书页")
+        print("有声书页正常加载")
+    except AssertionError:
+        pytest.fail("定位「有声书页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def check_store_link():
+    print("检查链接跳转是否正常")
+    store_icon = driver.find_element(By.XPATH, '//*[@id="app_inner"]/div[3]/section/div[1]/div/div[9]/button/span/span[2]')
+    assert store_icon.text == '商店'
+    ActionChains(driver).move_to_element(store_icon)
+    hidden_store_link_g = driver.find_element(By.XPATH, '/html/body/div[10]/div/div/ul/li/a/span/span')
+    hidden_store_link_h = driver.find_element(By.XPATH, '/html/body/div[10]/div/div/ul/li[1]/a/span/span')
+    assert hidden_store_link_g.text == "吉考斯工业"
+    assert hidden_store_link_h.text == "核市奇谭"
+    # 点击跳转"吉考斯工业"
+    ActionChains(driver).click(hidden_store_link_g)
+
+    assert "吉考斯工业", "核市奇谭" in driver.page_source
+
+
+def open_works_page():
+    print("检查「原创作品页」中...")
+    url = base_url + 'works'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "works", "当前页面为：原创作品页")
+        print("原创作品页正常加载")
+    except AssertionError:
+        pytest.fail("定位「原创作品页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_games_original_page():
+    print("检查「原创游戏页」中...")
+    url = base_url + 'games/original'
+    driver.get(url)
+    try:
+        # 断言网址是否正确
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "gamesOriginal", "当前页面为：原创游戏页")
+        print("原创游戏页正常加载")
+    except AssertionError:
+        pytest.fail("定位「原创游戏页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_albums_page():
+    print("检查「播单页」中...")
+    url = base_url + 'albums'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "albums", "当前页面为：播单页")
+        print("播单页正常加载")
+    except AssertionError:
+        pytest.fail("定位「播单页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_collections_page():
+    print("检查「专题页」中...")
+    url = base_url + 'collection_page'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "collections", "当前页面为：专题页")
+        print("专题页正常加载")
+    except AssertionError:
+        pytest.fail("定位「专题页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_app_download_page():
+    print("检查「app下载页」中...")
+    url = base_url + 'app'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "app", "当前页面为：app下载页")
+        print("app下载页正常加载")
+    except AssertionError:
+        pytest.fail("定位「app下载页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_gpass_buy_page():
+    print("检查「会员购买页」中...")
+    url = base_url + 'gpass'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "gpass", "当前页面为：会员购买页")
+        print("会员购买页正常加载")
+    except AssertionError:
+        pytest.fail("定位「会员购买页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_gpass_privilege():
+    print("检查「会员权益页」中...")
+    url = base_url + 'gpass_privilege'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "gpassPanel", "当前页面为：会员权益页")
+        print("会员权益页正常加载")
+    except AssertionError:
+        pytest.fail("定位「会员权益页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_gpass_orders_page():
+    print("检查「会员订单页」中...")
+    url = base_url + 'gpass_privilege/orders'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "gpassOrders", "当前页面为：会员订单页")
+        print("会员订单页正常加载")
+    except AssertionError:
+        pytest.fail("定位「会员订单页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_mails_page():
+    print("检查「私信页」中...")
+    url = base_url + 'mails?opponentID=0'
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "mails", "当前页面为：会员订单页")
+        print("私信页正常加载")
+    except AssertionError:
+        pytest.fail("定位「私信页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_user_page(user_id):
+    print("检查「个人页」中...")
+    url = base_url + 'users/ ' + user_id
+    driver.get(url)
+    # 断言网址是否正确
+    try:
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "userTalks", "当前页面为：个人页")
+        print("个人页正常加载")
+    except AssertionError:
+        pytest.fail("定位「个人页」失败，请检查首页状态")
+        # log("× 机核主页状态异常")
+
+
+def open_article_detail_page():
+    print("检查文章详情页（用户发布）中...")
+    url = base_url + 'articles/169291'
+    driver.get(url)
+    # 断言展示
+    try:
+        # 断言网址是否正确
+        assert url in driver.current_url
+        # 页面唯一标志（用于定位页面）
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "article", "当前页面属于：文章页(含资讯)")
+        print("√ 文章详情页（含资讯）正常加载")
+    except AssertionError:
+        pytest.fail("文章详情页状态异常")
+        # log("× 文章详情页状态异常")
+
+
+def open_talk_detail_page():
+    print("检查机组动态详情页中...")
+    url = base_url + 'talks/633413'
+    driver.get(url)
+    # 断言展示
+    try:
+        # 断言网址是否正确
+        assert url in driver.current_url
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "talk", "当前页面属于：机组动态详情页")
+        print("√ 机组动态详情页正常加载")
+    except AssertionError:
+        pytest.fail("机组动态详情页状态异常")
+        # log("× 话题详情页状态异常")
+
+
+def open_radio_detail_page():
+    print("检查播客详情页中...")
+    url = base_url + 'radios/169168'
+    driver.get(url)
+    # 断言展示
+    try:
+        # 断言当URL是否正确
+        assert url in driver.current_url
+        # 页面唯一标志
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "radio", "当前页面属于：播客详情页")
+        print("√ 播客详情页正常加载")
+    except AssertionError:
+        pytest.fail("播客详情页状态异常")
+        # log("× 电台详情页状态异常")
+
+
+def open_video_detail_page():
+    try:
+        print("检查视频详情页(taptap源)中...")
+        url = base_url + 'videos/169095'
+        driver.get(url)
+        unique_mark = driver.find_element(By.CLASS_NAME, 'vjs-big-play-button')
+        assert unique_mark.text in driver.page_source
+
+    except AssertionError:
+        pytest.fail("视频详情页中(taptap源)异常")
+
+    try:
+        print("检查视频详情页(官方)中...")
+        url = base_url + 'videos/169539'
+        driver.get(url)
+        unique_mark = driver.find_element(By.CLASS_NAME, 'vjs-big-play-button')
+        assert unique_mark.text in driver.page_source
+
+    except AssertionError:
+        pytest.fail('视频详情页(官方)异常')
+
+
+def open_albums_detail_page():
+    print("检查「播单详情页」中...")
+    url = base_url + 'albums/199'
+    driver.get(url)
+    # 断言展示
+    try:
+        # 断言当URL是否正确
+        assert url in driver.current_url
+        # 页面唯一标志
+        unique_mark = driver.find_element(By.XPATH, '//*[@id="app_inner"]')
+        page_pos = unique_mark.get_attribute('data-page-name')
+        assert_equal(page_pos, "album", "当前页面属于：播单详情页")
+        print("√ 播单详情页正常加载")
+    except AssertionError:
+        pytest.fail("播单详情页状态异常")
+        # log("× 电台详情页状态异常")
+
+
 @retry(wait_fixed=10, stop_max_attempt_number=1)
 def login():
+    open_home_page()
     print("密码登录操作中...")
-    loginhome_btn = driver.find_element(By.XPATH, '//*[@id="app_inner"]/div[3]/div/div[2]/nav/div/div[2]/div[3]/button')
+    loginhome_btn = driver.find_element(By.XPATH, '//*[@id="app_inner"]/div[3]/div/div[2]/nav/div/div[2]/div[3]/button/span')
+    # 断言是否存在登录按钮
+    assert loginhome_btn.text in driver.page_source
     loginhome_btn.click()
     # 断言登录弹窗是否展示
     assert '免密登录' in driver.page_source
@@ -29,23 +436,47 @@ def login():
     phonenum_input = driver.find_element(By.XPATH, '/html/body/div[13]/div/div/div[2]/form/div[1]/div/input')
     phonenum_input.click()
     print("正在输入账号密码")
-    phonenum_input.send_keys("13520363642")
+    data_json = json.loads(open('/WebAuto/data/data.json', 'r').read())
+    account = json.loads(data_json['accounts'][0])
+    phonenum_input.send_keys(account)
     passnum_input = driver.find_element(By.XPATH, '/html/body/div[13]/div/div/div[2]/form/div[2]/div/input')
     passnum_input.click()
-    passnum_input.send_keys("Zs111111")
+    data_json = json.loads(open('/WebAuto/data/data.json', 'r').read())
+    password = json.loads(data_json['passwords'][0])
+    passnum_input.send_keys(password)
     keeplogin_btn = driver.find_element(By.XPATH, '//*[@id="rememberMe"]')
     keeplogin_btn.click()
     login_btn = driver.find_element(By.XPATH, '/html/body/div[13]/div/div/div[2]/form/div[4]/button')
     login_btn.click()
-    assert '500'
+    sleep(5)
 
     try:
         # 断言登录成功，在首页展示收藏
         collections_btn = driver.find_element(By.XPATH, '//*[@id="app_inner"]/div[3]/div/div[2]/nav/div/div[2]/div[3]/a[2]')
         assert_equal(collections_btn.text, "收藏", "登录成功，定位首页收藏")
         print("登录成功后，首页显示：{}".format(collections_btn.text))
-    except NoSuchElementException:
-        log("未定位到「收藏」btn，请检查登录状态")
+    except AssertionError:
+        pytest.fail("定位：首页「收藏」btn失败，请检查页面状态")
+        # log("未定位到「收藏」btn，请检查登录状态")
+
+
+def signout():
+    try:
+        open_home_page()
+        # 鼠标移动到顶部右上角头像，是否展示退出按钮
+        avatar = driver.find_element(By.CLASS_NAME, 'avatar_img')
+        ActionChains(driver).move_to_element(avatar)
+        signout_btn = driver.find_element(By.LINK_TEXT, '退出')
+        assert signout_btn.text in driver.page_source
+        signout_btn.click()
+        # 退出成功断言
+        loginhome_btn = driver.find_element(By.XPATH, '//*[@id="app_inner"]/div[3]/div/div[2]/nav/div/div[2]/div[3]/button/span')
+        # 断言是否存在登录按钮
+        assert loginhome_btn.text in driver.page_source
+        print("退出登录成功")
+
+    except AssertionError:
+        pytest.fail("× 退出登录异常")
 
 
 '''
@@ -58,21 +489,53 @@ try:
     chrome_options.page_load_strategy = 'normal'
     # 启动chrome
     driver = webdriver.Chrome(options=chrome_options)
-    # 命令超出时长异常抛出
-    driver.implicitly_wait(20)
-    # 计算启动时间
+    # 启动chrome超出25S 抛出异常
+    driver.implicitly_wait(25)
+    # base_url = "http://local.gcores.com:3001/"
+    base_url = "https://www.gcores.com/"
+    # 计算启动时间s
     start_time = datetime.datetime.now()
-    driver.get('https://www.gcores.com/')
-    # 断言网址是否正确
-    assert 'https://www.gcores.com/' in driver.current_url
-    driver.maximize_window()
-
-    '''测试用例'''
+    '''【未登录】打开各页面'''
+    open_home_page()
+    open_topic_home()
+    open_news_page()
+    open_radios_page()
+    open_articles_page()
+    open_videos_page()
+    open_audiobooks_page()
+    open_works_page()
+    open_games_original_page()
+    open_albums_page()
+    open_collections_page()
+    open_app_download_page()
+    open_gpass_buy_page()
+    open_article_detail_page()
+    open_talk_detail_page()
+    open_radio_detail_page()
+    open_video_detail_page()
+    '''【已登录】打开各页面'''
     login()
+    open_topic_home()
+    open_news_page()
+    open_radios_page()
+    open_articles_page()
+    open_videos_page()
+    open_audiobooks_page()
+    open_works_page()
+    open_games_original_page()
+    open_albums_page()
+    open_collections_page()
+    open_app_download_page()
+    open_gpass_buy_page()
+    open_article_detail_page()
+    open_talk_detail_page()
+    open_radio_detail_page()
+    open_video_detail_page()
+
     end_time = datetime.datetime.now()
-    print(end_time - start_time)
+    print("总花费时间：{}" + str(end_time - start_time))
     # 退出chrome
     driver.quit()
 
 finally:
-    log("测试结束，请查看终端消息")
+    log("测试结束，请查看控制台结果")

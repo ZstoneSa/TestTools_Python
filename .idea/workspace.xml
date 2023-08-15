@@ -25,9 +25,8 @@
     <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="update-demo">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zhengshi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhengshi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeatData/Gcores_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeatData/Gcores_web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAuto/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/WebAuto/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAuto/requirementa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebAuto/requirementa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/Gcores_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Gcores_web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAuto/WebAutomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebAuto/WebAutomation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
