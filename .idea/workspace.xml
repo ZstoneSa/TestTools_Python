@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="update-demo">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zhengshi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhengshi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Gcores_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Gcores_web.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAuto/WebAutomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebAuto/WebAutomation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,7 @@
       <recent name="$PROJECT_DIR$/TeatData/build_scheme" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Gcores_web">
+  <component name="RunManager" selected="Python.WebAutomation">
     <configuration name="Gcores_award" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTools_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,8 +197,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Gcores_web" />
         <item itemvalue="Python.WebAutomation" />
+        <item itemvalue="Python.Gcores_web" />
         <item itemvalue="Python.Gcores_award" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.URL_base64" />
