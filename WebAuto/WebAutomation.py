@@ -632,7 +632,7 @@ def signout():
         open_home_page()
         # 鼠标移动到顶部右上角头像，是否展示退出按钮
         avatar = driver.find_element(By.CLASS_NAME, 'avatar_img')
-        # ActionChains(driver).move_to_element(avatar)
+        ActionChains(driver).move_to_element(avatar).perform()
         ActionChains(driver).click()
         signout_btn = driver.find_element(By.LINK_TEXT, '退出')
         assert signout_btn.text in driver.page_source
@@ -660,8 +660,8 @@ try:
     driver = webdriver.Chrome(options=chrome_options)
     # 启动chrome超出25S 抛出异常
     driver.implicitly_wait(25)
-    # base_url = "http://local.gcores.com:3001/"
-    base_url = "https://www.gcores.com/"
+    base_url = "http://local.gcores.com:3001/"
+    # base_url = "https://www.gcores.com/"
     # 计算启动时间s
     start_time = datetime.datetime.now()
     '''【未登录】打开各页面'''

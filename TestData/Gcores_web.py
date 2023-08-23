@@ -50,12 +50,12 @@ def login():
     phonenum_input = driver.find_element(By.XPATH, '/html/body/div[13]/div/div/div[2]/form/div[1]/div/input')
     phonenum_input.click()
     print("正在输入账号密码")
-    data_json = json.loads(open('/WebAuto/data/data.json', 'r').read())
+    data_json = json.loads(open('/TestTools_Python/WebAuto/data/data.json', 'r').read())
     account = json.loads(data_json['accounts'][0])
     phonenum_input.send_keys(account)
     passnum_input = driver.find_element(By.XPATH, '/html/body/div[13]/div/div/div[2]/form/div[2]/div/input')
     passnum_input.click()
-    data_json = json.loads(open('/WebAuto/data/data.json', 'r').read())
+    data_json = json.loads(open('/TestTools_Python/WebAuto/data/data.json', 'r').read())
     password = json.loads(data_json['passwords'][0])
     passnum_input.send_keys(password)
     keeplogin_btn = driver.find_element(By.XPATH, '//*[@id="rememberMe"]')
@@ -78,7 +78,7 @@ def signout():
     try:
         # 鼠标移动到顶部右上角头像，是否展示退出按钮
         avatar = driver.find_element(By.CLASS_NAME, 'avatar_img')
-        ActionChains(driver).move_to_element(avatar)
+        ActionChains(driver).move_to_element(avatar).perform()
         signout_btn = driver.find_element(By.LINK_TEXT, '退出')
         assert signout_btn.text in driver.page_source
         signout_btn.click()
@@ -380,9 +380,10 @@ try:
     print(end_time - start_time)
     '''测试用例'''
     login()
-    open_radio_detail_page()
-    open_article_detail_page()
-    open_talk_detail_page()
+    signout()
+    # open_radio_detail_page()
+    # open_article_detail_page()
+    # open_talk_detail_page()
 
     # 退出chrome
     driver.quit()
