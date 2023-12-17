@@ -23,10 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408c75bd-0158-4458-9e06-33c691c82399" name="Default Changelist" comment="update-demo">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zhengshi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhengshi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/Gcores_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/Gcores_web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAuto/WebAutomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebAuto/WebAutomation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/load/Response" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/load/Response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAuto/page/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebAuto/page/HomePage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,28 @@
       <recent name="$PROJECT_DIR$/TeatData/build_scheme" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Gcores_web (1)">
+  <component name="RunManager" selected="Python.Gcores_GamePage">
+    <configuration name="Gcores_GamePage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTools_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestData/Gcores_GamePage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Gcores_award" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTools_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,41 +190,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTools_Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TeatData" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TeatData/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.Gcores_GamePage" />
       <item itemvalue="Python.Gcores_web (1)" />
       <item itemvalue="Python.Gcores_web" />
       <item itemvalue="Python.Gcores_award" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.WebAutomation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Gcores_GamePage" />
+        <item itemvalue="Python.Gcores_award" />
         <item itemvalue="Python.Gcores_web (1)" />
         <item itemvalue="Python.Gcores_web" />
         <item itemvalue="Python.WebAutomation" />
-        <item itemvalue="Python.Gcores_award" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>

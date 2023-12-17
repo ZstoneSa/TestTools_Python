@@ -35,3 +35,5 @@ class HomePage:
 
 
     def input_search_keyword(self, keyword):
+        pass
+
